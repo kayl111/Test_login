@@ -1,6 +1,7 @@
 <template>
   <div>
-      <h1 style="font-size: 80px;">Welcome to Bee Latte</h1>
+      <h1 style="font-size: 80px;">Welcome to Latte Lab</h1>
+      <h2 style="font-size: 20px;">Brew coffee to your likeness</h2>
       <h2 style="font-size: 20px;">Brew coffee to your likeness</h2>
  
   </div>
