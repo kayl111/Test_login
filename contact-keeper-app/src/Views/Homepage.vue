@@ -125,6 +125,7 @@ export default {
    border-radius: 70px;
   border-width: 1px;
    border-style: solid;
+   cursor: pointer;
 }
 
 
