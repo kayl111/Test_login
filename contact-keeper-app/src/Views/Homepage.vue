@@ -1,7 +1,7 @@
 <template>
   <div>
 
-        <h1 style="font-size:80px;  ">Welcome to Latte Bee</h1>
+        <h1 style="font-size:80px;  ">Welcome to Latte Lab</h1>
        <h2 style="font-size: 20px;">Brew coffee to your likeness</h2>  
 
            <div class="thisisme-cont">
