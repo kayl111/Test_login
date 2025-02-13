@@ -1,29 +1,9 @@
 <template>
   <div>
 
-        <h1 style="font-size:80px;  ">Welcome to Latte Lab</h1>
-       <h2 style="font-size: 20px;">Brew coffee to your likeness</h2>  
+        <h1 style="font-size:80px;  ">Welcome to Moto Lab</h1>
+       <h2 style="font-size: 20px;">Rev to the fullest</h2>  
 
-           <div class="thisisme-cont">
-      <div class="content-cont">
-        Explore recipes, brewing techniques, and tools that let you craft the perfect cup of coffee right at home.<br>
-        From classic espresso to innovative cold brews, we help you master your favorite drinks.
-      </div>
-    </div>
-
-
-
-       <div class="images">
-          <div> <img src="https://cdn.shopify.com/s/files/1/0137/1655/3786/files/caffe_americano.jpg?v=1614873502" class="image"></div>
-          <div> <img src="https://i.pinimg.com/736x/0c/93/b3/0c93b3065fa962cb2a98e1a0afbf447b.jpg" class="image"></div>
-          <div> <img src="https://i.pinimg.com/736x/d1/34/4e/d1344ee0f1b1624c70c9772cdaf8b5f4.jpg" class="image"></div>
-      </div>
-      
-      <div class="button">
-        <div >  <button   class="a-button"  >Hot Coffee</button> </div>
-          <div>  <button   class="a-button"  >Iced Coffee</button > </div>
-            <div ><button    class="a-button" >Milk Tea Coffee</button> </div>
-      </div>
 
 
 
@@ -109,7 +89,6 @@ export default {
     padding-top: 20px;
   animation: fadeInUp 2.5s ease-out forwards; 
 }
-
 .a-button
 {
   height:55px;
@@ -127,8 +106,6 @@ export default {
    border-style: solid;
    cursor: pointer;
 }
-
-
 
 @media (max-width: 768px) {
   .container {
