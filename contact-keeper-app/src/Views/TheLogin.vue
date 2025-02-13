@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class = theback>
     <form @submit.prevent="handleLogin" autocomplete="off">
       <div class="form">
-        <h1>Latte Lab</h1>
-        <pre>Brew. Sip. Enjoy.</pre>
+        <h1>Moto Lab</h1>
+        <pre>Fuel Your Freedom</pre>
         <div>
           <TextField
             label="Email"
@@ -19,7 +19,7 @@
             v-model="password"
           />
           <p class="forgot">Forgot Password?</p>
-          <AppButton @click="handleLogin">Let's Brew</AppButton>
+          <AppButton @click="handleLogin">Let's Ride</AppButton>
           <div class="new">
             <p>New to Lab?</p>
             <p>
@@ -90,65 +90,58 @@ export default {
 
 <style scoped>
 
- body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .form {
-      background: #fff;
-      padding: 20px 30px;
-      border: rgb(187, 187, 187) solid;
-      border-width: 0.20px;
-      border-radius: 8px;
-      width: 150%;
-      max-width: 600px;
-      box-shadow: 0 4px 16px rgba(181, 101, 29, 0.4);
-    }
-    h1 {
-      text-align: center;
-      color: #1d0f02;
-    }
-    pre {
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: #1d0f02;
-      margin-top: -10px;
-      margin-bottom: 20px;
-      font-size: 16px;
-    }
-    .new {
-      display: flex;
-      flex-direction: row; 
-      justify-content: center;   
-      gap: 10px;   
-      margin-top: 20px;
-    }
 
-    .new p {
-      margin: 5px;
-    }
+.form {
+  background: #fff;
+  padding: 40px 40px;
+  border: rgb(187, 187, 187) solid;
+  border-width: 0.20px;
+  border-radius: 8px;
+  width: 150%;
+  max-width: 500px;
+  box-shadow: 0 4px 16px rgba(181, 101, 29, 0.4);
+  }
 
-    .new p:first-child {
-      font-weight: 600;
-      color: #1d0f02;
-    }
+  h1 {
+  text-align: center;
+  color: #1d0f02;
+  }
 
-    p.forgot {
-      text-align: left;
-      margin: 15px 0 20px;
-      font-size: 16px;
-      color: #1d0f02;
-      cursor: pointer;
-    }
+  pre {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1d0f02;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  }
 
-    p.forgot:hover {
-      text-decoration: underline;
-    }
+  .new {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;   
+  gap: 10px;   
+  margin-top: 20px;
+  }
 
+  .new p {
+  margin: 5px;
+  }
+
+  .new p:first-child {
+  font-weight: 600;
+  color: #1d0f02;
+  }
+
+  p.forgot {
+  text-align: left;
+  margin: 15px 0 20px;
+  font-size: 16px;
+  color: #1d0f02;
+  cursor: pointer;
+  }
+
+  p.forgot:hover {
+  text-decoration: underline;
+  }
 </style>
