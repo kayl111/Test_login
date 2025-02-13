@@ -19,7 +19,7 @@
             v-model="password"
           />
           <p class="forgot">Forgot Password?</p>
-          <AppButton @click="handleLogin">Let's Ride</AppButton>
+          <AppButton @click="handleLogin">Let's Ride Baby</AppButton>
           <div class="new">
             <p>New to Lab?</p>
             <p>
